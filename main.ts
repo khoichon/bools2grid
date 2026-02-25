@@ -15,7 +15,7 @@ namespace ledgrid {
         for (let x = 0; x < 5; x++) {
             for (let y = 0; y < 5; y++) {
 
-                if (grid[x][y]) {
+                if (grid[y][x]) {
                     led.plot(x, y)
                 } else {
                     led.unplot(x, y)
