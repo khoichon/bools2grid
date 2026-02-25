@@ -21,7 +21,16 @@ To edit this repository in MakeCode.
 ## Features
 #### display_led() function
 * takes in a 5x5 grid of booleans
-(for example, [[True,True,True,False,False],[True,True,False,False,True], and so on])
+* Example:
+  ```python
+  display_led([
+    [True,True,False,True,True],
+    [True,True,False,True,True],
+    [True,True,False,True,True],
+    [True,True,False,True,True],
+    [True,True,False,True,True]
+  ])
+  ```
 
 #### Metadata (used for search, rendering)
 
