@@ -11,5 +11,3 @@ def display_led(grid: list[list[bool]]):
             else:
                 led.unplot(x, y)
 
-display_led([
-    [True,True,True,True,True]])

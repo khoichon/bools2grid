@@ -17,4 +17,3 @@ function display_led(grid: any) {
     }
 }
 
-display_led([[true, true, true, true, true]])
