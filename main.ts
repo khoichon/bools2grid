@@ -1,7 +1,7 @@
 /**
  * LED Grid Tools
  */
-//% color=#FFAA00 icon="\uf00a"
+//% color=#FFAA00 icon="\uf00a" block="LED Tools"
 namespace ledgrid {
 
     /**
