@@ -18,6 +18,11 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/khoichon/bools2grid** and click import
 
+## Features
+#### display_led() function
+* takes in a 5x5 grid of booleans
+(for example, [[True,True,True,False,False],[True,True,False,False,True], and so on])
+
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit

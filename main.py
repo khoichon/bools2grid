@@ -1,7 +1,10 @@
-def display_led(grid: list[list[bool]]):
+def display_led(grid: any):
     """
+    
     Directly display the boolean grid list to the LED directly. 
     @param grid Grid of 5x5 booleans made using lists
+    
+    
     
     """
     for x in range(5):
@@ -10,4 +13,3 @@ def display_led(grid: list[list[bool]]):
                 led.plot(x, y)
             else:
                 led.unplot(x, y)
-

@@ -1,7 +1,10 @@
 function display_led(grid: any) {
     /** 
+    
     Directly display the boolean grid list to the LED directly. 
     @param grid Grid of 5x5 booleans made using lists
+    
+    
     
     
  */
