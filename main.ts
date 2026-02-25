@@ -1,22 +1,28 @@
-function display_led(grid: any) {
-    /** 
-    
-    Directly display the boolean grid list to the LED directly. 
-    @param grid Grid of 5x5 booleans made using lists
-    
-    
-    
-    
+/**
+ * LED Grid Tools
  */
-    for (let x = 0; x < 5; x++) {
-        for (let y = 0; y < 5; y++) {
-            if (grid[x][y]) {
-                led.plot(x, y)
-            } else {
-                led.unplot(x, y)
+//% color=#FFAA00 icon="\uf00a"
+namespace ledgrid {
+
+    /**
+     * Directly display a 5x5 boolean grid to the LED screen
+     * @param grid 5x5 list of booleans
+     */
+    //% block="display LED grid %grid"
+    //% weight=100
+    export function displayLed(grid: boolean[][]): void {
+
+        for (let x = 0; x < 5; x++) {
+            for (let y = 0; y < 5; y++) {
+
+                if (grid[x][y]) {
+                    led.plot(x, y)
+                } else {
+                    led.unplot(x, y)
+                }
+
             }
-            
         }
+
     }
 }
-
